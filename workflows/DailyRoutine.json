@@ -1,0 +1,29 @@
+{
+  "$type": "Runner.Services.Workflows.Workflow, Runner.Services",
+  "Id": 0,
+  "Name": "DailyRoutine",
+  "Description": "Just do it",
+  "Steps": {
+    "$type": "System.Collections.Generic.List`1[[WorkflowStep, Runner.Services]], mscorlib",
+    "$values": [
+      {
+        "$type": "WorkflowStep, Runner.Services",
+        "Order": 2,
+        "TaskId": 9,
+        "Task": {
+          "$type": "Runner.Services.Models.TaskConfig, Runner.Services",
+          "Id": 9,
+          "Name": "SQL Studio",
+          "Description": "SQL Studio",
+          "PathToFile": "",
+          "PathToUtil": "C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio\\Ssms.exe",
+          "Parameters": {
+            "$type": "System.String[], mscorlib",
+            "$values": []
+          },
+          "Type": 1
+        }
+      }
+    ]
+  }
+}
