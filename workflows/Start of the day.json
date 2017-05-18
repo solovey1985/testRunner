@@ -1,0 +1,67 @@
+{
+  "$type": "Runner.Services.Workflows.Workflow, Runner.Services",
+  "Id": 1,
+  "Name": "Start of the day",
+  "Description": "Before meetings preparations",
+  "Steps": {
+    "$type": "System.Collections.Generic.List`1[[WorkflowStep, Runner.Services]], mscorlib",
+    "$values": [
+      {
+        "$type": "WorkflowStep, Runner.Services",
+        "Order": 0,
+        "TaskId": 3,
+        "Task": {
+          "$type": "Runner.Services.Models.TaskConfig, Runner.Services",
+          "Id": 3,
+          "Name": "Git test",
+          "Description": "Git test",
+          "PathToFile": "d:\\Repositories\\TestRunner",
+          "PathToUtil": "git.exe",
+          "Parameters": {
+            "$type": "System.String[], mscorlib",
+            "$values": [
+              ""
+            ]
+          },
+          "Type": 4
+        }
+      },
+      {
+        "$type": "WorkflowStep, Runner.Services",
+        "Order": 1,
+        "TaskId": 8,
+        "Task": {
+          "$type": "Runner.Services.Models.TaskConfig, Runner.Services",
+          "Id": 8,
+          "Name": "Log Parser",
+          "Description": "Log Parser",
+          "PathToFile": "",
+          "PathToUtil": "d:\\NoInstall\\LPSV2.D1\\LPS.exe",
+          "Parameters": {
+            "$type": "System.String[], mscorlib",
+            "$values": []
+          },
+          "Type": 1
+        }
+      },
+      {
+        "$type": "WorkflowStep, Runner.Services",
+        "Order": 2,
+        "TaskId": 6,
+        "Task": {
+          "$type": "Runner.Services.Models.TaskConfig, Runner.Services",
+          "Id": 6,
+          "Name": "TV Planner",
+          "Description": "TV Planner",
+          "PathToFile": "",
+          "PathToUtil": "e:\\GroupM\\Install\\TvpIntegrationDemo\\TvpIntegrationDemo\\TvpIntegrationDemo\\bin\\Debug\\TvpIntegrationDemo.exe",
+          "Parameters": {
+            "$type": "System.String[], mscorlib",
+            "$values": []
+          },
+          "Type": 1
+        }
+      }
+    ]
+  }
+}
