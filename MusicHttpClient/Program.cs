@@ -18,8 +18,7 @@ namespace MusicHttpClient
             {
                 Thread.Sleep(500);
             }
-            Console.WriteLine("Output of results");
-            Console.Write(aw.Result.ReadAsStringAsync().Result);
+            Console.WriteLine("Output of another results");
             Console.ReadKey();
         }
 
