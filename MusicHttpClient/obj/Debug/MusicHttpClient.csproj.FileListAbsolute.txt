@@ -1,6 +1,0 @@
-D:\Repositories\TestRunner\MusicHttpClient\bin\Debug\MusicHttpClient.exe.config
-D:\Repositories\TestRunner\MusicHttpClient\bin\Debug\MusicHttpClient.exe
-D:\Repositories\TestRunner\MusicHttpClient\bin\Debug\MusicHttpClient.pdb
-D:\Repositories\TestRunner\MusicHttpClient\obj\Debug\MusicHttpClient.csprojResolveAssemblyReference.cache
-D:\Repositories\TestRunner\MusicHttpClient\obj\Debug\MusicHttpClient.exe
-D:\Repositories\TestRunner\MusicHttpClient\obj\Debug\MusicHttpClient.pdb
