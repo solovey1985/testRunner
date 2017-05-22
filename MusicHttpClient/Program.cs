@@ -19,6 +19,7 @@ namespace MusicHttpClient
                 Thread.Sleep(500);
             }
             Console.WriteLine("Output of another results changed");
+            Console.WriteLine("Updated ++");
             Console.ReadKey();
         }
 
