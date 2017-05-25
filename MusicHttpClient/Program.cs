@@ -13,12 +13,7 @@ namespace MusicHttpClient
     {
         static void Main(string[] args)
         {
-            var aw =  GetRequest();
-            while (!aw.IsCompleted)
-            {
-                Thread.Sleep(500);
-            }
-            Console.WriteLine("Output of another results changed");
+            Console.WriteLine("Hello from 25 of May");
             Console.WriteLine("Hello new GIT Commit!");
             Console.ReadKey();
         }
