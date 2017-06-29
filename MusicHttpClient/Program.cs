@@ -13,8 +13,8 @@ namespace MusicHttpClient
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello from 25 of May London");
-            Console.WriteLine("Hello new GIT Commit!");
+            Console.WriteLine("Hello from 29 of June London");
+            Console.WriteLine("Hello new GIT Commit! Another");
             Console.ReadKey();
         }
 
